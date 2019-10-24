@@ -35,3 +35,11 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: view
+          
+quoting:
+  database: false
+  identifier: false
+  schema: false
+
+models:
+  transient: true
