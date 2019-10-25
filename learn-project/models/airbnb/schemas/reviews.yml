@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_airbnb_reviews
+    description: all the data for airbnb reviews
+
+    columns:
+      - name: id
+        description: ID of the review
+          - not_null
+          - unique
+
+      - name: count_of_reviews
+        description: A count of reviews
+
+      - name: reviewer_name
+        description: The name of the reviewer
+
+      - name: date
+        description: The date of the review
+
+      - name: review
+        description: The actual review
+
+      - name: comments
+        description: The comments of the review
+
+      - name: listing_id
+        description: The id of the listing

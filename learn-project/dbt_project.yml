@@ -37,7 +37,17 @@ models:
       example:
           materialized: view
 
+
 quoting:
   database: false
   identifier: false
   schema: false
+
+models:
+  transient: true
+  airbnb:
+      # Applies to all files under models/example/
+      stg_airbnb_listings:
+          materialized: view
+      atg_airbnb_reviews:
+          materialized: view
