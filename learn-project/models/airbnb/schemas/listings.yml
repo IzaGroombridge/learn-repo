@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stg_airbnb_listings
+    description: all the data for airbnb listings
